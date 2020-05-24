@@ -18,14 +18,3 @@ orbslam也只会优化关键帧，关键帧只占所有帧中的很小一部分�
   *lastKeyFrame, Mat color, bool lastColorIsKeyFrame, Mat K, Mat mDistCoef)函数
 - 在orbslam计算相机位姿前，使用光流法跟踪上一关键帧的特征点，并用pnpransac计算相机位姿。
 
-3.效果
-
-在精度下降较小的情况下，加速了orbslam# orbslam2-with-LK-optical-flow![Screenshot from 2020-01-15 21-15-24](/media/xiaohu/xiaohu/slam/开源方案（修改）/orbslam2-with-KLT/result/Screenshot from 2020-01-15 21-15-24.png)
-
-
-
-
-
-
-
-![Screenshot from 2020-01-15 21-15-24](/media/xiaohu/xiaohu/slam/开源方案（修改）/orbslam2-with-KLT/result/Screenshot from 2020-01-15 21-15-25.png)
